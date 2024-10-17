@@ -1,4 +1,4 @@
-name: Build and deploy App: $(date +%Y%m%d%H%M)
+name: Build and deploy App: ${{ github.event.repository.updated_at}}
 on:
   push:
     branches:
