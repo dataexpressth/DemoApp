@@ -1,8 +1,5 @@
 name: Build and deploy App
-on:
-  push:
-    branches:
-    - master
+on: [push]
 env:
   AZURE_WEBAPP_NAME: DemoApp20241017085049
   AZURE_WEBAPP_PACKAGE_PATH: DemoApp\published
