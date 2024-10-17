@@ -1,4 +1,4 @@
-name: Build and deploy App: ${{ github.event.repository.updated_at}}
+name: Build and deploy App
 on:
   push:
     branches:
