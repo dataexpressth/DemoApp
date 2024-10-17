@@ -2,20 +2,11 @@ deployments:
   environmentMapping:
     development:
       - "dev*"
-      - "Entwicklung"
-      - "desenvolvimento"
-      - "дев"
+      - "PSPA-*"
     testing:
-      - "testes"
-      - "Test"
-      - "TST-*"
-      - "тест"
+      - "test*"
     staging:
-      - "Pre-Prod"
-      - "STG-*"
-      - "staging"
+      - "staging*"
     production:
-      - "Produktion"
-      - "produção"
-      - "продакшн"
-      - "PROD-*"
+      - "production*"
+      
