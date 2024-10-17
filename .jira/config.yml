@@ -1,0 +1,13 @@
+deployments:
+  environmentMapping:
+    development:
+      - "dev*"
+      - "deploy"
+      - "PSPA-*"
+    testing:
+      - "test*"
+    staging:
+      - "staging*"
+    production:
+      - "production*"
+      
