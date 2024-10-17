@@ -1,4 +1,4 @@
-name: Build and deploy App
+name: Build and deploy App: $(date +%Y%m%d%H%M)
 on:
   push:
     branches:
